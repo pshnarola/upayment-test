@@ -1,0 +1,24 @@
+.product-image {
+  width: 200px;
+  width: 170px;
+}
+
+.product-image-card {
+  object-fit: contain;
+  height: 100% !important;
+}
+
+@media only screen and (max-width: 760px) {
+  .product-card-wrapper {
+    margin: 0 5%;
+  }
+}
+
+.card-image {
+  height: 230px;
+  width: 100%;
+}
+
+.card-top {
+  flex-flow: column;
+}
